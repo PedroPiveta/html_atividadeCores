@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600&family=Montserrat:wght@300&family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap');
+
+/*Breakpoint 786 pixels de largura*/
+
+* {
+    margin: 0;
+}
+html, body{
+    cursor: url("img/caixa.png"),auto;
+}
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background-image: linear-gradient(#732E1F, #491F19);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-image: repeating-linear-gradient(45deg, red, red 10px, #fff 10px, #fff 20px);
+    border-radius: 30px;
+}
+
+body {
+    overflow-x: hidden;
+    cursor: url(img/caixa.png), auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    height: 15vh;
+    width: 100%;
+    background-color: red;
+    position: sticky;
+    top: 0;
+
+    /*Para funcionar no safari*/
+    position: -webkit-sticky;
+}
+.botao{
+    display: none;
+}
+.area-itens {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    height: 100%;
+    width: 30vw;
+}
+
+.item {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 35px;
+
+}
+
+.item:hover {
+    /* background-color: black; */
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    background-color: rgb(238, 0, 0);
+    color: #ff9f1a;
+    border-radius: 20px;
+}
+.icon{
+    height: 75%;
+}
+.icon img{
+    width: 50px;
+    height: 50px;
+}
+.topo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/chocomil-cemil.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info {
+    width: 25vw;
+    margin-right: 15vw;
+    font-family: 'DynaPuff', cursive;
+    color: #ff9f1a;
+    font-size: 45px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+    width: 100%;
+    height: 115vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.video {
+    padding-top: 5vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+.legenda {
+    width: 25vw;
+    margin-top: 6vh;
+    margin-left: 2vw;
+    font-family: 'DynaPuff', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(236, 236, 236);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.hist {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(71, 21, 12, 1), rgba(107, 49, 39, 1));
+    width: 100%;
+    height: 110vh;
+}
+
+.hist-info {
+    width: 25vw;
+    margin-right: 15vw;
+    font-family: 'DynaPuff', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(236, 236, 236);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(20, 20, 20);
+}
+.footer-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 55vw;
+    height: 40vh;
+    font-family: 'DynaPuff', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(180, 180, 180);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.link{
+    width: 10vw;
+    padding-bottom: 5vh;
+    scale: 0.15;
+}
+.canudo {
+    width: 100%;
+    height: 12px;
+    background-image: repeating-linear-gradient(45deg, red, red 10px, #fff 10px, #fff 20px);
+}

@@ -1,0 +1,20 @@
+@media (max-width: 540px) {
+
+    /* .botao{
+        display: initial;
+    } */
+    .menu {
+        height: 10vh;
+        position: relative;
+    }
+
+    .logo {
+        scale: 0.5;
+    }
+
+    .area-itens {
+        display: none;
+    }
+
+
+}
