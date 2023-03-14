@@ -87,6 +87,11 @@ body {
 }
 
 @media (max-width:600px) {
+    .nav {
+        position: sticky;
+        top: 0;
+    }
+
     .nav>.nav-btn {
         display: inline-block;
         position: absolute;
@@ -211,7 +216,9 @@ body {
 }
 
 .video {
+    background: black;
     aspect-ratio: 16/9;
+    padding-top: 5%;
 }
 
 .legenda {
@@ -232,6 +239,10 @@ body {
     background-image: linear-gradient(to right, rgba(71, 21, 12, 1), rgba(107, 49, 39, 1));
     width: 100%;
     height: 110vh;
+}
+
+.caixa {
+    max-width: 300px;
 }
 
 .hist-info {
